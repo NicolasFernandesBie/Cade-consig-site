@@ -48,9 +48,8 @@ export default function NotFound() {
                 playsInline
                 preload="metadata"
                 poster="/images/image.png"
-                className="rounded-full w-full h-auto object-contain"
+                className="rounded-full w-full max-w-md aspect-square object-contain"
               >
-                <source src="/0202_1_.webm" type="video/webm" />
                 <source src="/0202(1)-Trim.mp4" type="video/mp4" />
               </video>
             </div>
