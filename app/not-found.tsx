@@ -41,15 +41,17 @@ export default function NotFound() {
 
           <div>
             <div className="flex items-center justify-center">
-              <Image
-                src="/0202_1_.gif"
-                alt="Ilustração de página não encontrada"
-                width={520}
-                height={520}
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="auto"
                 className="rounded-full w-full h-auto object-contain"
-                priority
-                unoptimized
-              />
+              >
+                <source src="/0202_1_.webm" type="video/webm" />
+                <source src="/0202(1)-Trim.mp4" type="video/mp4" />
+              </video>
             </div>
             <p className="mt-6 text-center text-sm text-white/70">
               Se precisar de ajuda, fale com a nossa equipe.
