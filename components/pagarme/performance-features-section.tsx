@@ -73,7 +73,7 @@ export function PerformanceFeaturesSection() {
 
         {/* CTA Button */}
         <div className="flex justify-center mt-16">
-          <Button className="bg-[#2a5b8c] hover:bg-[#008B55] text-white rounded-full px-10 py-6 text-base font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
+          <Button className="bg-[#2a5b8c] hover:bg-[#1f4566] text-white rounded-full px-10 py-6 text-base font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
             Cadastrar agora
           </Button>
         </div>

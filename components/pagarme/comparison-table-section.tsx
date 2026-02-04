@@ -74,7 +74,7 @@ export function ComparisonTableSection() {
                         Pronto para usar
                       </span>
                     </span>
-                    <Button className="bg-orange-500 hover:bg-[#008B55] text-white rounded-full px-6">
+                    <Button className="bg-orange-500 hover:bg-orange-700 text-white rounded-full px-6">
                       Cadastrar
                     </Button>
                   </div>
@@ -84,7 +84,7 @@ export function ComparisonTableSection() {
                     <span className="text-gray-700">
                       Plano <span className="font-semibold">Customizado</span>
                     </span>
-                    <Button className="bg-orange-500 hover:bg-[#008B55] text-white rounded-full px-6">
+                    <Button className="bg-orange-500 hover:bg-orange-700 text-white rounded-full px-6">
                       Cadastrar
                     </Button>
                   </div>
