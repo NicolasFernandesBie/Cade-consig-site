@@ -46,7 +46,8 @@ export default function NotFound() {
                 loop
                 muted
                 playsInline
-                preload="auto"
+                preload="metadata"
+                poster="/images/image.png"
                 className="rounded-full w-full h-auto object-contain"
               >
                 <source src="/0202_1_.webm" type="video/webm" />
