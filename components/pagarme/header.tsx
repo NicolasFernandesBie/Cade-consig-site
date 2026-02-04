@@ -43,21 +43,21 @@ export function Header() {
                 {item.label}
               </a>
             ))}
-            <button
+            {/* <button
               className={`flex items-center gap-1 text-sm font-medium hover-color-orange group ${"text-white"}`}
             >
               Desenvolvedores
               <ChevronDown className="h-4 w-4 group-hover:rotate-180 transition-transform duration-300" />
-            </button>
+            </button> */}
           </nav>
 
           {/* Right Actions */}
           <div className="hidden lg:flex items-center gap-3">
-            <button
+            {/* <button
               className={`p-2 hover-color-orange hover-rotate-12 ${"text-white"}`}
             >
               <HelpCircle className="h-5 w-5" />
-            </button>
+            </button> */}
             <a href="https://app.cadeconsig.com.br/entrar">
               <Button
                 variant="outline"
